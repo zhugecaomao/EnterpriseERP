@@ -1,0 +1,55 @@
+package G110_R50;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE ON}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'OnGuard Components'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vclx,
+  rtl,
+  designide,
+  vclactnband;
+
+contains
+  OgNetWrk in 'OgNetWrk.pas',
+  OgUtil in 'OgUtil.pas',
+  OgConst in 'OgConst.pas',
+  OnGuard in 'OnGuard.pas',
+  OnGuard1 in 'OnGuard1.pas',
+  OnGuard2 in 'OnGuard2.pas',
+  OnGuard3 in 'OnGuard3.pas',
+  OnGuard4 in 'OnGuard4.pas',
+  OgFirst in 'OgFirst.pas',
+  OgSrMgr in 'OgSrMgr.pas',
+  OgAbout0 in 'ogabout0.pas' {OgAboutForm},
+  OgFile in 'ogfile.pas',
+  OgProExe in 'ogproexe.pas',
+  OgReg in 'ogreg.pas',
+  OnGuard5 in 'OnGuard5.pas',
+  OnGuard6 in 'onguard6.pas' {ModifierFrm},
+  OnGuard7 in 'onguard7.pas';
+
+end.

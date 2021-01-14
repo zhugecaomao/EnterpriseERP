@@ -1,0 +1,16 @@
+This file summarizes changes made between OnGuard versions 1.08 and
+1.09.  It is of interest primarily to users who have upgraded from a
+previous version.
+
+Enhancements
+---------------------------------------------------------------------
+Added Delphi 5 compiler support
+
+ONGUARD2  - Display dates in 4-digit year and 2-digit month format.
+ONGUARD6
+OGUTIL
+
+Bugs fixed
+---------------------------------------------------------------------
+OGREG     - Remove reference to unsused unit ONGUARD8.
+OGNETWRK  - CheckCode doesn't lock NAF slot when AutoCheck = False.

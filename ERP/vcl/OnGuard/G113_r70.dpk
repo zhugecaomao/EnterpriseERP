@@ -1,0 +1,45 @@
+package G113_R70;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE ON}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'TurboPower OnGuard 1.13 Runtime package - VCL70'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vclx;
+
+contains
+  OgNetWrk in 'OgNetWrk.pas',
+  OgUtil in 'OgUtil.pas',
+  OgConst in 'OgConst.pas',
+  OnGuard in 'OnGuard.pas',
+  OnGuard1 in 'OnGuard1.pas',
+  OnGuard2 in 'OnGuard2.pas',
+  OnGuard3 in 'OnGuard3.pas',
+  OnGuard4 in 'OnGuard4.pas',
+  OgFirst in 'OgFirst.pas',
+  OgSrMgr in 'OgSrMgr.pas';
+
+end.

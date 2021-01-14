@@ -1,0 +1,71 @@
+object REPmessform: TREPmessform
+  Left = 238
+  Top = 147
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = #25552#31034
+  ClientHeight = 91
+  ClientWidth = 237
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 109
+    Top = 51
+    Width = 48
+    Height = 14
+    Caption = 'Label1'
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clRed
+    Font.Height = -14
+    Font.Name = #26999#20307'_GB2312'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 80
+    Top = 20
+    Width = 85
+    Height = 16
+    Caption = #27491#22312#22788#29702#65306
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clBlue
+    Font.Height = -16
+    Font.Name = #26999#20307'_GB2312'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 86
+    Top = 51
+    Width = 14
+    Height = 14
+    Caption = #31532
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clYellow
+    Font.Height = -14
+    Font.Name = #26999#20307'_GB2312'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 133
+    Top = 51
+    Width = 14
+    Height = 14
+    Caption = #39029
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clYellow
+    Font.Height = -14
+    Font.Name = #26999#20307'_GB2312'
+    Font.Style = []
+    ParentFont = False
+  end
+end

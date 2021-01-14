@@ -1,0 +1,12 @@
+This file summarizes changes made between OnGuard versions 1.11 and
+1.12.  It is of interest primarily to users who have upgraded from a
+previous version.
+
+Enhancements
+---------------------------------------------------------------------
+Added C++Builder 6 compiler support
+
+Bugs fixed
+---------------------------------------------------------------------
+ONGUARD2      fix  Accented characters not handled properly
+

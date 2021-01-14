@@ -1,0 +1,13 @@
+;*********************************************************
+;*                   OGCONST.RC 1.07                     *
+;*     Copyright (c) 1996-98 TurboPower Software Co      *
+;*                 All rights reserved.                  *
+;*********************************************************
+
+;win16 is defined in onguard.mak when calling brcc
+
+#ifdef win16
+ONGUARD_STRINGS_ENGLISH RCDATA OGCONST.S16
+#else
+ONGUARD_STRINGS_ENGLISH RCDATA OGCONST.S32
+#endif

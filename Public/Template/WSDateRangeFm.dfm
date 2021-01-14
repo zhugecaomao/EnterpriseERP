@@ -1,0 +1,52 @@
+object WSDateRangeFrame: TWSDateRangeFrame
+  Left = 0
+  Top = 0
+  Width = 281
+  Height = 25
+  Font.Charset = GB2312_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = #23435#20307
+  Font.Style = []
+  ParentFont = False
+  TabOrder = 0
+  object lblDateRange: TLabel
+    Left = 8
+    Top = 5
+    Width = 54
+    Height = 12
+    Caption = #36215#27490#26085#26399':'
+  end
+  object deBeginDate: TDateTimePicker
+    Left = 72
+    Top = 2
+    Width = 97
+    Height = 20
+    CalAlignment = dtaLeft
+    Date = 37790.0418176852
+    Time = 37790.0418176852
+    DateFormat = dfShort
+    DateMode = dmComboBox
+    Kind = dtkDate
+    ParseInput = False
+    TabOrder = 0
+    OnCloseUp = deBeginDateCloseUp
+    OnKeyPress = deBeginDateKeyPress
+  end
+  object deEndDate: TDateTimePicker
+    Left = 176
+    Top = 2
+    Width = 97
+    Height = 20
+    CalAlignment = dtaLeft
+    Date = 37790.0418231366
+    Time = 37790.0418231366
+    DateFormat = dfShort
+    DateMode = dmComboBox
+    Kind = dtkDate
+    ParseInput = False
+    TabOrder = 1
+    OnCloseUp = deBeginDateCloseUp
+    OnKeyPress = deBeginDateKeyPress
+  end
+end

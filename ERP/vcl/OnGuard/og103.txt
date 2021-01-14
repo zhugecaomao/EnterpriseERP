@@ -1,0 +1,26 @@
+This file summarizes changes made between OnGuard versions 1.00 and
+1.03.  It is of interest primarily to users who have upgraded from a
+previous version.
+
+
+Bugs fixed
+---------------------------------------------------------------------
+OGNETWRK
+  - Possible system hang when control is destroyed under Win95
+OGPROEXE
+  - Code optimization alters signature record
+OGUTIL
+  - XorMem causes GPF under Delphi 1 (ApplyModifier)
+ONGUARD
+  - Modifier assigned in OnGetModifier doesn't work
+  - Registration string not retured
+  - Code property returns an empty string
+
+
+
+New Features/Enhancements
+---------------------------------------------------------------------
+OGNETWRK
+  - Added OnGetFileName event
+ONGUARD
+  - Changed string resource handling to avoid resource conflicts

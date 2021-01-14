@@ -1,0 +1,34 @@
+组件说明：
+
+TQLDBLookupComboBox 是一款增强型的 DBLookupComboBox 组件，它在标准的 DBLookupComboBox 增加了一些更方便用户快速输入数据的特性。它的大部分属性和方法跟标准 DBLookupComboBox 组件相同，因此这些属性和方法这里不再加以说明，需要的话请参考 Delphi 帮助文档。
+
+property SearchMode: TSearchMode read FSearchMode write SetSearchMode;
+
+    指定查找模式，可取如下值：
+    
+    smLocate    使用定位方式查找
+    smFilter    使用过滤方式查找
+
+property SearchType: TSearchType read FSearchType write FSearchType;
+
+    值时查找类型，可取如下值：
+    
+    stAuto    自动决定查找类型
+    smNormal  使用由 ListFieldIndex 属性指定的字段查找
+    smPYM     使用由 ListFieldIndex 属性指定的字段的值的拼音码查找
+    smWBM     使用由 ListFieldIndex 属性指定的字段的值的五笔码查找
+
+property VisibleButtons: TLookupWindowBtns read FVisibleButtons write 
+            SetVisibleButtons default [lbNew, lbEdit, lbSetNull];
+
+    决定哪些按纽出现在下拉框中
+
+
+property OnButtonClick: TLookupWindowBtnClick read FOnButtonClick write 
+            FOnButtonClick;
+
+在用户单击下拉列表框中的按纽时会触发该事件。参数 Index 指定当前用户点击的按钮类型，有如下值：
+
+lbNew      用户点击了新建按钮
+lbEdit     单击的是编辑按钮
+lbSetNull  单击的是置空按钮

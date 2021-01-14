@@ -1,0 +1,15 @@
+This file summarizes changes made between OnGuard versions 1.10 and
+1.11.  It is of interest primarily to users who have upgraded from a
+previous version.
+
+Enhancements
+---------------------------------------------------------------------
+Added Delphi 6 compiler support
+Added string modifier to Code property editor.
+Assignable typed constants enabled only where needed.
+
+Bugs fixed
+---------------------------------------------------------------------
+ONGUARD       fix  NIC address info broken in Win2000.
+ONGUARD       fix  UserInfo not used for machine ID in Win98.
+

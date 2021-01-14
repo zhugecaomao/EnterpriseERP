@@ -1,0 +1,43 @@
+package G110_D50;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE ON}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'OnGuard Components'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vclx,
+  G110_R50;
+
+contains
+  OnGuard5 in 'OnGuard5.pas',
+  OnGuard6 in 'OnGuard6.pas',
+  OnGuard7 in 'OnGuard7.pas',
+  OgReg in 'OgReg.pas',
+  OgAbout0 in 'OgAbout0.pas',
+  OgProExe in 'OgProExe.pas',
+  OgFile in 'OgFile.pas';
+
+end.

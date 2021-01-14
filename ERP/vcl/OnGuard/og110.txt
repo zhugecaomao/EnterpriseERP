@@ -1,0 +1,13 @@
+This file summarizes changes made between OnGuard versions 1.09 and
+1.10.  It is of interest primarily to users who have upgraded from a
+previous version.
+
+Enhancements
+---------------------------------------------------------------------
+Added C++Builder 5 compiler support
+
+
+Bugs fixed
+---------------------------------------------------------------------
+ONGUARD       fix  MakeKeys and MakeCodes Forms always linked in.
+ONGUARD.INC
